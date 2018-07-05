@@ -3,3 +3,174 @@ html {
   font-family: Helvetica, sans-serif;
   line-height: 1.4;
 }
+
+ /* Cover Section */
+#greetings {
+  padding-top: 1rem;
+  width: 100%;
+  height: 30rem;
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+header {
+  box-sizing: border-box;
+  width: 960px;
+  display: flex;
+  flex-flow: row;
+  justify-content:  space-between;
+  align-items: center;
+  padding: 0 2rem;
+  font-size: 1rem;
+  color: white;
+  background-color: cadetblue;
+  margin: 0 auto;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title img {
+  height: 1.5rem;
+  width: auto;
+}
+
+#company-name {
+  margin-left: 1rem;
+}
+
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+
+}
+
+li.menu {
+  padding: 1rem;
+  display: inline-block;
+}
+
+/* Moto section */
+.moto {
+  width: 960px;
+  height: 26rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 auto;
+
+}
+
+.moto span {
+  padding: 1.5rem 5rem;
+  background-color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  left: 2rem;
+
+}
+
+/* Content Section */
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+  height: 14rem;
+}
+
+.item {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.portrait-img {
+  width: 3.5rem;
+  height: auto;
+}
+
+.horizontal-img {
+  width: 5rem;
+  height: auto;
+}
+
+.descriptor {
+  font-size: 1rem;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4;
+  text-align: center;
+}
+
+/* About section */
+
+.about {
+  display: flex;
+  justify-content: center;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.empty {
+  width: 5%;
+}
+
+.info-box h2 {
+  font-size: 1rem;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.5rem 1.25rem;
+  background-color: cadetblue;
+}
+
+.info-box p {
+  font-size: 1rem;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4;
+  padding-top: 1rem;
+}
+
+/* Footer */
+
+footer {
+  margin: 5rem auto 0 auto;
+  padding: 4rem;
+  background-color: azure;
+  width: 960px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  width: auto;
+}
+
+#copyright {
+  padding: 1rem;
+
+}
